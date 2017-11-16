@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-void ouvrirFichier(int *f);
+FILE* openFile();
 
-void fermerFichier(int *f);
+void getSize(FILE* content, int* numberLine);
 
-void lireFichier(int *f);
+Value* creatingTab(int* numberLine);
+
+void getValue(Value *tab, FILE* content);
