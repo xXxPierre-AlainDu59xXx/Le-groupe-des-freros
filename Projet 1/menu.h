@@ -2,6 +2,6 @@
 #define MENU_H_INCLUDED
 #include "menu.c"
 
-void menu();
+int menu(int f);
 
 #endif // MENU_H_INCLUDED
