@@ -2,14 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-void triCroissant();
+void average(Value *tab, int numberLine, long val1, long val2);
 
-void triDecroissant();
+int dichoSearch(Value *tab, int numberLine, long val);
 
-void chercherPoulsMin();
+void sortInsertion(Value *tab, int numberLine, int valueSort, int typeSort);
 
-void chercherPoulsMax();
-
-void calculMoyennePouls();
-
-void calculNombreLignes();
+void display(Value *tab, int numberLine);
