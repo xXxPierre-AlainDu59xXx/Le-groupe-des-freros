@@ -1,22 +1,23 @@
 # depslib dependency file v1.0
-1510835510 source:c:\users\françois\desktop\programme c\projet 1\main.c
+1510841420 source:c:\users\françois\desktop\programme c\projet 1\main.c
 	<stdio.h>
 	<stdlib.h>
 	"generationCode.h"
 	"menu.h"
 
-1510835531 source:c:\users\françois\desktop\programme c\projet 1\generationcode.c
+1510841567 source:c:\users\françois\desktop\programme c\projet 1\generationcode.c
 	"generationCode.h"
+	<stdio.h>
+	<stdlib.h>
 
-1510835442 c:\users\françois\desktop\programme c\projet 1\generationcode.h
-	"generationCode.c"
+1510839917 c:\users\françois\desktop\programme c\projet 1\generationcode.h
 
-1510835426 c:\users\françois\desktop\programme c\projet 1\menu.h
+1510841420 c:\users\françois\desktop\programme c\projet 1\menu.h
 	"menu.c"
 
 1510835531 c:\users\françois\desktop\programme c\projet 1\generationcode.c
 	"generationCode.h"
 
-1510835563 c:\users\françois\desktop\programme c\projet 1\menu.c
+1510841538 c:\users\françois\desktop\programme c\projet 1\menu.c
 	"menu.h"
 

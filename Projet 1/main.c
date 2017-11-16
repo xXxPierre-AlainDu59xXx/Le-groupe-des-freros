@@ -7,6 +7,13 @@
 
 int main()
 {
-
+    FILE *f = NULL;
+    menu(f);
+    if(f==NULL)
+    {
+        return 0;
+    }
+    else
+        fclose(f);
     return 0;
 }
