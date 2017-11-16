@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
 {
     int menuChoice, numberLine;
     Value *tab = NULL;
+    // Makes the menu appear
     treatment(tab, menuChoice, numberLine);
     return 0;
 }
