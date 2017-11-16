@@ -2,22 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-void afficherDonneesFichier();
+void triCroissant();
 
-void afficherDonneesCroissant();
+void triDecroissant();
 
-void afficherDonneesDecroissant();
+void chercherPoulsMin();
 
-void afficherDonneesTemps();
+void chercherPoulsMax();
 
-void afficherMoyennePouls();
+void calculMoyennePouls();
 
-void afficherNombreLignes();
-
-void afficherPoulsMax();
-
-void afficherPoulsMin();
-
-void quitter();
-
-//TODO: Mettre les prototypes dans les bons headers
+void calculNombreLignes();
