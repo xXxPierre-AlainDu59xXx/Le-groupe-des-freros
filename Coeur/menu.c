@@ -3,7 +3,7 @@
 
 #include "menu.h"
 
-void menuSort(&menuSortChoice)
+void menuSort(int menuSortChoice)
 {
     int *menuChoice;
     printf("Please choose a menu:\n1-Raw data display\n2-Organized data display\n3-Moment specific data search\n4-Time range specific data search\n5-Number of stored lines\n6-Highest and lowest pulse values\n");
