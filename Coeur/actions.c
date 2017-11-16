@@ -164,7 +164,7 @@ void display(Value *tab, int numberLine)
     // For each box of the table we display its contents
     for(i=0;i<numberLine;i++)
     {
-        printf("Au temps : %ld, le pouls vaut : %d\n", tab[i].currentTime, tab[i].heartbeat);
+        printf("At this many milliseconds: %ld, the pulse is: %d\n", tab[i].currentTime, tab[i].heartbeat);
     }
 }
 
@@ -294,12 +294,12 @@ int dichoSearch(Value *tab, int numberLine, long val)
     if(tab[id].currentTime == val)
     {
         // If we found the right value, we return the index
-        printf("Au temps : %ld, le pouls vaut : %d\n", tab[id].currentTime, tab[id].heartbeat);
+        printf("At this many milliseconds: %ld, the pulse is: %d\n", tab[id].currentTime, tab[id].heartbeat);
     }
     else
     {
         // Display result
-        printf("Il n'y pas de valeur associer au temps");
+        printf("There is no value associated with the time");
     }
 
     // Return location of the value in the array
@@ -320,5 +320,5 @@ void average(Value *tab, int numberLine, long val1, long val2)
         l++;
     }
 
-    printf("La moyenne de pouls est : %lf\n", moy/l);
+    printf("The average pulse is: %lf\n", moy/l);
 }
