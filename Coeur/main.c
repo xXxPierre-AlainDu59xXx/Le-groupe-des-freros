@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 #include "actions.h"
-#include "donnees.h"
 #include "menu.h"
+#include "donnees.h"
 
 int main(int argc, char *argv[])
 {
-    quitter();
+    int menuChoice, numberLine;
+    Value *tab = NULL;
+    // Makes the menu appear
+    treatment(tab, menuChoice, numberLine);
+    return 0;
 }

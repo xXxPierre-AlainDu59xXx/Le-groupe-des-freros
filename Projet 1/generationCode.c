@@ -13,4 +13,3 @@ void ecrireFichier(f,DEBUT,FIN)
 {
     fprintf(f,"#define param.h\nconst int DEBUT=%d;\nconst int FIN=%d;\n",DEBUT,FIN);
 }
-

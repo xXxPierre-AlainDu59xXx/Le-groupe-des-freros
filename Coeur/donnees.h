@@ -2,8 +2,17 @@
 #include <stdlib.h>
 #include <string.h>
 
-void ouvrirFichier(int *f);
+typedef struct Value Value;
+struct Value
+{
+    int currentTime;
+    int heartbeat;
+};
 
-void fermerFichier(int *f);
+FILE* openFile();
 
-void lireFichier(int *f);
+void getSize(FILE* content, int* numberLine);
+
+Value* creatingTab(int* numberLine);
+
+void getValue(Value *tab, FILE* content);
