@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1510838675 source:c:\users\p-ati\onedrive\documents\coeur\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actions.h"
+	"entreeSortie.h"
+	"menu.h"
+
+1510835054 source:c:\users\p-ati\onedrive\documents\coeur\actions.c
+
+1510835063 source:c:\users\p-ati\onedrive\documents\coeur\entreesortie.c
+
+1510835070 source:c:\users\p-ati\onedrive\documents\coeur\menu.c
+
+1510841243 c:\users\p-ati\onedrive\documents\coeur\actions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1510841243 c:\users\p-ati\onedrive\documents\coeur\entreesortie.h
+
+1510841243 c:\users\p-ati\onedrive\documents\coeur\menu.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
