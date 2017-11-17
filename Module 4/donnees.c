@@ -3,14 +3,11 @@
 #include "donnees.h"
 
 
-
-
 FILE* openFile()
 {
     // Pointer on my csv file
     FILE* content = NULL;
     content = fopen("Battements.csv", "r");
-
     return content;
 }
 

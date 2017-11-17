@@ -4,6 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-void menuSort(int menuSortChoice);
+int menuSort(int menuSortChoice);
 
 #endif // MENU_H_INCLUDED

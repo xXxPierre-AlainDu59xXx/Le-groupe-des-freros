@@ -13,15 +13,14 @@
 #include "actions.h"
 #include "menu.h"
 
-void treatment(Value *tab, int *menuChoice, int *numberLine)
+void treatment(Value *tab,int *menuChoice, int *numberLine)
 {
     // Param variable
-    int valueSort, menuSortChoice;
+    int valueSort, menuSortChoice,choix;
     long val1, val2;
-    menuSort(menuSortChoice);
-
+   choix= menuSort(menuSortChoice);
     // choice treatment
-    switch(*menuChoice)
+    switch(choix)
     {
         case 1 :
             // Displaying tab data
