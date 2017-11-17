@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #include "donnees.h"
+
+
+
 
 FILE* openFile()
 {
     // Pointer on my csv file
     FILE* content = NULL;
-    content = fopen("Battements.csv", "r");
+    content = fopen("Le-groupe-des-freros-master/Module3/convertisseurserialcsv/Battements.csv", "r");
 
     return content;
 }
