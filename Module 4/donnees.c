@@ -9,7 +9,7 @@ FILE* openFile()
 {
     // Pointer on my csv file
     FILE* content = NULL;
-    content = fopen("Le-groupe-des-freros-master/Module3/convertisseurserialcsv/Battements.csv", "r");
+    content = fopen("Battements.csv", "r");
 
     return content;
 }
