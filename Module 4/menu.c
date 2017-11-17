@@ -12,7 +12,7 @@ void menuSort(int menuSortChoice)
     if (menuChoice==2)
     {
         int menuSortChoice;
-        printf("Please choose a command:\n1-Growing data display time-wise\n2-Growing data display value-wise\n3-Descending data display time-wise\4-Descending data display value-wise");
+        printf("Please choose a command:\n1-Growing data display time-wise\n2-Growing data display value-wise\n3-Descending data display time-wise\n4-Descending data display value-wise\n");
         // Secondary menu choice
         scanf("%d",&menuSortChoice);
     }

@@ -18,6 +18,7 @@ void treatment(Value *tab, int *menuChoice, int *numberLine)
     // Param variable
     int valueSort, menuSortChoice;
     long val1, val2;
+    menuSort(menuSortChoice);
 
     // choice treatment
     switch(*menuChoice)
