@@ -3,7 +3,7 @@ int menu(int f)
 {
     f = ouvrirFichier(f);
     int choix,DEBUT,FIN;
-    printf("MENU:\nVeuillez sélectionner votre action:\n1->Allumage de LED;\n2->Test de LED;\n ");
+    printf("MENU:\nVeuillez sÃ©lectionner votre action:\n1->Allumage de LED;\n2->Test de LED;\n ");
     scanf("%d",&choix);
     if (choix==1)
     {
@@ -29,7 +29,7 @@ int menu(int f)
     }
     else if (choix==2)
     {
-        printf("MENU:\nVeuillez choisir la LED à tester:\n1->LED 1;\n2->LED 2;\n3->LED 3;\n4->LED 4;\5->LED 5;\n6->LED 6;\n7->LED 7;\n8->LED 8;\n9->LED 9;\n10->LED 10;\n ");
+        printf("MENU:\nVeuillez choisir la LED Ã  tester:\n1->LED 1;\n2->LED 2;\n3->LED 3;\n4->LED 4;\n5->LED 5;\n6->LED 6;\n7->LED 7;\n8->LED 8;\n9->LED 9;\n10->LED 10;\n ");
         scanf("%d",&choix);
         switch (choix)
         {
